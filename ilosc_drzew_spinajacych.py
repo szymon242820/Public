@@ -15,5 +15,5 @@ macierz = np.array(tabx).reshape(dimy[0], dimy[1])
 macierz = np.delete(macierz, (0), axis=0)
 macierz = np.delete(macierz, (0), axis=1)
 
-print("Ilość drzew spinających tego grafu wynosi:",str(int(np.linalg.det(macierz))), sep=" ")
+print("Ilość drzew spinających tego grafu wynosi:",int(np.linalg.det(macierz)), sep=" ")
 input("Kliknij ENTER żeby wyjść")
